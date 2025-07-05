@@ -1,14 +1,15 @@
 let msg = [
         { text: "Hello Ojaswini," },
         { text: "Just wanted to tell you a short story" },
-        { text: "I never had any best friend at past" },
+        { text: "I never had any best friend to talk" },
         { text: "Neither at school, Nor at my residential area" },    
         { text: "Nobody wants to talk me idk why"},
-        { text: "Everyone broke trust but you are only one who hadn't yet you are the only one i have talked this much" },
+        { text: "Everyone whom I thought are good broke my trust but you are only one who hadn't " },
+        { text: "You are the only one whom I had talked this much" },
         { text: "I always consider you as my best friend" },
-        { text: "But just wanted to offcially became your best friend" },
-        { text: "Its awkward because to introvert to ask, sorry if it hurts" },
-        { text: "but, i just wanted to ask..." }    
+        { text: "But just wanted to offcially become your best friend" },
+        { text: "Its awkward because I am too introvert to ask, sorry if it hurts" },
+        { text: "So, i just wanted to ask..." }    
         
     ];
 
