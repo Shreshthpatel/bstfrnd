@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>🎁</title>
+  
+</head>
+<body>
+    <div id="startPage">
+        <h1>Hi </h1>
+        <h2>Increase your volume please, Its something!☺✨</h2>
+        <button onclick="startApp()">Start</button>
+    </div>
+
+    <div id="msgpg">
+       
+       <div id="msg">Loading Shayari...</div>
+       <div id="gifBox"><img id="gifImage" src="" alt="gif" /></div>
+        <div class="button-container">
+            <button id="nextButton" onclick="showNextShayari()">Next</button>
+        </div>
+    </div>
+    
+    <div id="proposalPage">
+        <h2 id="proposalText"></h2>
+        <div class="button-container">
+            <button id="yesButton" onclick="sendResponse('yes')" style="background-color: green;">Yes ✅</button>
+            <button id="noButton" onclick="sendResponse('no')" style="background-color: black;">No ❌</button>
+        </div>
+        <div id="proposalGifBox"><img id="gifImageProposal" src="gif4.gif" alt="Proposal GIF" /></div>
+    </div>
+ <audio id="backgroundMusic" loop>
+        <source src="f807aad8e5c60a87334231f72267c725_160.m4a" type="audio/aac" />
+    </audio>
+
+
+<script src="./script.js"></script>
+</body>
+</html>
